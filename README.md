@@ -4,7 +4,7 @@
 
 Lignes de commande:
 
-ls /etc man ls find /etc/ -name “*conf” -type f ls /etc/apache2/ telnet localhost:80 apt-get upgrade
+    ls /etc man ls find /etc/ -name “*conf” -type f ls /etc/apache2/ telnet localhost:80 apt-get upgrade
 
 Regex : expression régulière, une chaîne de caractères, que l’on appelle parfois un motif, qui décrit, selon une syntaxe précise, un ensemble de chaînes de caractères possibles.
 
@@ -30,7 +30,7 @@ SSH Secure Shell
 
 Clé publique :
 
-/home/[user]/.ssh/id_rsa.pub
+    /home/[user]/.ssh/id_rsa.pub
 
 utiliser ssh-keygen
 
@@ -46,7 +46,7 @@ Dans ce dépôt il y aura les instructions pour pouvoir lancer le script et cré
 
 2°) ~$ ./init shell pour exécuter un script que l’on aura préparé
 
-init.sh cp index.html
+    init.sh cp index.html
 
 Pré requis pour la suite :
 
